@@ -1,6 +1,8 @@
 # NUS Fuzzing Summer School Lecture
 
-This is the repository for the [NUS Summer School lecture](https://fuzzing.comp.nus.edu.sg/) on "Learning and Refining Input Grammars for Effective Fuzzing".
+This is the repository for the
+[NUS Summer School lecture](https://fuzzing.comp.nus.edu.sg/) on
+"Specification for Free:  Behavior-Driven Fuzzing with Inferred Specifications".
 
 One of the concerns in search based software engineering is the search space.
 Our algorithms can be more performant if we can constrain this search space.
@@ -52,36 +54,20 @@ In particular, we will see:
   ```
 - Make a virtual environment (recommended)
   ```
-  $ python3 -m venv summer2025
-  $ cd summer2025
-  $ source bin/activate
+  $ python3 -m venv py
+  $ source py/bin/activate
   ```
-- Install `z3` You need to first clone
-  ```
-  git clone https://github.com/Z3Prover/z3.git
-  ```
-  Then, cd to `z3` and
-  ```
-  python scripts/mk_make.py --python
-  cd build
-  make
-  make install
-  ```
-  You will find Z3 and the Python bindings installed in the virtual environment
-  ...
-  python -c 'import z3; print(z3.get_version_string())'
-  ...
 - Install [Jupyter](https://jupyter.org/).
   ```
-  $ ./bin/python3 -m pip install "jupyter==1.0.0"
+  $ ./py/bin/python3 -m pip install "jupyter==1.0.0"
   ```
 - Checkout this repository
   ```
-  git clone git@github.com:vrthra/summer2025.git
+  git clone git@github.com:vrthra/summer2026-nus.git
   ```
 - Start the Jupyter server in the repository directory
   ```
-  $ cd summer2025
+  $ cd summer2026
   $ jupyter-notebook
   ```
   This opens a browser window at http://localhost:8888/tree
