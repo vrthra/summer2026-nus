@@ -47,6 +47,7 @@ In particular, we will see:
   $ sudo apt-get install python3.12
   ```
 - Install [Graphviz](https://graphviz.org/download/) for your operating system.
+  This is optional. You can get by without.
   
   Some variation of
   ```
